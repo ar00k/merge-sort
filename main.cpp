@@ -87,6 +87,7 @@ int main() {
         return 1;
     }
     //_________________________________Sortowanie____________________________________
+
         // Wyswietlamy tablice przed sortowaniem
     std::cout << "Before sorting: ";
     for (int i = 0; i < size; ++i) {
