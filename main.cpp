@@ -95,6 +95,19 @@ int main() {
     }
     std::cout << std::endl;
 
+    // Tworzymy obiekt klasy MergeSort
+    MergeSort mergeSort;
+
+    // Wywolujemy funkcje sortujaca
+    mergeSort.sort(arr, size);
+
+    // Wyswietlamy tablice po sortowaniu
+    std::cout << "After sorting: ";
+    for (int i = 0; i < size; ++i) {
+        std::cout << arr[i] << " ";
+    }
+    std::cout << std::endl;
+
     // Usuwamy dynamicznie alokowana tablice
     delete[] arr;
 
