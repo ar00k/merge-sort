@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "Binary Search Tree", "index.html", [
+  [ "Algorytm Merge Sort", "index.html", [
     [ "Klasy", "annotated.html", [
       [ "Lista klas", "annotated.html", "annotated_dup" ],
       [ "Indeks klas", "classes.html", null ],
