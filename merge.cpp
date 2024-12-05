@@ -11,6 +11,8 @@ void MergeSort::sort(int* arr, int size) {
 
 // Funkcja pomocnicza realizująca algorytm merge sort
 void MergeSort::mergeSort(int* arr, int left, int right) {
+    //test w celu pokazania testow zakonczonych niepowodzniem
+    // return;
     if (left < right) {
         int mid = left + (right - left) / 2;  // Znalezienie środkowego indeksu
 
